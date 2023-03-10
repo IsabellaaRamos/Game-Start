@@ -1,0 +1,374 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smothing: grayscale;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100vh; */
+    background-color: #161623;
+    height: 200vh;
+    width: 100vw;
+    display: grid;
+    place-content: center;
+    background: linear-gradient(#161623,#1f0101);
+}
+
+/* body,html{margin:0;padding:0;height:100%;}
+body{
+  background:url('https://farm9.staticflickr.com/8760/17195790401_ceeeafcddb_o.jpg');
+  background-size:cover;
+  font-family: 'Cabin Condensed', sans-serif;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+} */
+/* svg{font-weight:bold;max-width:500px;height:auto;
+   background-color: #161623;
+   text-decoration-color: #fff;
+
+} */
+
+.conty {
+   position: absolute;
+   top: 30%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   font-size: 35px;
+   line-height: 40px;
+   font-family: 'Muli';
+   color: #92a3a3;
+   height: 160px;
+   overflow: hidden;
+ }
+ 
+ .visible {
+   font-weight: 600;
+   overflow: hidden;
+   height: 40px;
+   padding: 0 40px;
+ }
+ .visible:before {
+   content: '[';
+   left: 0;
+   line-height: 40px;
+ }
+ .visible:after {
+   content: ']';
+   position: absolute;
+   right: 0;
+   line-height: 40px;
+ }
+ .visible:after, .visible:before {
+   position: absolute;
+   top: 0;
+   color: #ac13138f;
+   font-size: 42px;
+   animation: 2s linear 0s normal none infinite opacity;
+ }
+ 
+ .title {
+   display: inline;
+   float: left;
+   margin: 0;
+   width: 200px;
+ }
+ 
+ ul {
+   margin-top: 40px;
+   padding-left: 110px;
+   text-align: left;
+   list-style: none;
+   animation: 6s linear 0s normal none infinite change;
+ }
+ 
+ ul li {
+   line-height: 40px;
+   margin: 0;
+   margin-left: 60px;
+ }
+ 
+ @keyframes opacity {
+   0%, 100% {
+     opacity: 0;
+   }
+   50% {
+     opacity: 1;
+   }
+ }
+ @keyframes change {
+   0%, 12%, 100% {
+     transform: translateY(0);
+   }
+   17%,29% {
+     transform: translateY(-25%);
+   }
+   34%,46% {
+     transform: translateY(-50%);
+   }
+   51%,63% {
+     transform: translateY(-75%);
+   }
+   68%,80% {
+     transform: translateY(-50%);
+   }
+   85%,97% {
+     transform: translateY(-25%);
+   }
+ }
+ .container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    z-index: 1;
+ }
+
+ .container .card{
+    position: relative;
+    width: 280px;
+    height: 400px;
+    margin: 38px;
+    box-shadow: 20px 20px 50px rgba(216, 0, 18, 0.5);
+    border-radius: 15px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: 1px solid rgba(255, 255, 255, 0.5);
+    
+ }
+ .container .card .content{
+    padding: 20px;
+    text-align: center;
+    transform: translateY(100px);
+    opacity: 0;
+    transition: 0.5s;
+    position: relative;
+
+ }
+
+ .container .card:hover .content{
+    transform: translateY(0px);
+    opacity: 1;
+ }
+
+ .container .card .content h2{
+    position: absolute;
+    top: -80px;
+    right: 30px;
+    font-size: 8rem;
+    color: rgba(255, 255, 255, 0.555);
+    pointer-events: none;
+ }   
+ 
+ .container .card .content h3{
+    font-size: 1.8rem;
+    color: #ffffff;
+    z-index: 1;
+
+ }
+.container .card .content p{
+    font-size: 1rem;
+    color: #fff;
+    font-weight: 300;
+}
+.container .card .content a{
+    position: relative;
+    display: inline-block;
+    padding: 8px 20px;
+    margin-top: 15px;
+    background: #642222;
+    color: rgb(250, 246, 246);
+    text-decoration: none;
+    border-radius: 20px;
+    font-weight: 500;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    
+}
+
+
+
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

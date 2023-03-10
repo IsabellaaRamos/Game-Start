@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Games</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+    <!-- <svg viewbox="0 0 100 20">
+        <defs>
+        <linearGradient id="gradient" x1="0" x2="0" y1="0" y2="1">
+            <stop offset="5%" stop-color="#326384"/>
+            <stop offset="95%" stop-color="#123752"/>
+        </linearGradient>
+        <pattern id="wave" x="0" y="0" width="120" height="20" patternUnits="userSpaceOnUse">
+            <path id="wavePath" d="M-40 9 Q-30 7 -20 9 T0 9 T20 9 T40 9 T60 9 T80 9 T100 9 T120 9 V20 H-40z" mask="url(#mask)" fill="url(#gradient)"> 
+            <animateTransform
+                attributeName="transform"
+                begin="0s"
+                dur="1.5s"
+                type="translate"
+                from="0,0"
+                to="40,0"
+                repeatCount="indefinite" />
+            </path>
+        </pattern>
+        </defs>
+        <text text-anchor="middle" x="50" y="15" font-size="17" fill="url(#wave)"  fill-opacity="0.6">LOADING...</text>
+        <text text-anchor="middle" x="50" y="15" font-size="17" fill="url(#gradient)" fill-opacity="0.1">LOADING...</text>
+    </svg> -->
+
+   <!--  <link href='http://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'> -->
+  <div class='conty'>
+    <div class='visible'>
+      <p class="title">Welcome </p>
+      <ul>
+        <li>Games !</li>
+        <li>Magic !</li>
+        <li>RPG !</li>
+        <li>FPA</li>
+      </ul>
+    </div>
+  </div> 
+
+<body>
+    <div class="container"> 
+        <div class="card" style="background-image: url('favicon.png');">
+            <div class="content">
+                <h2>01</h2>
+                <h3>Hinata</h3>
+                <p>È uma guerreira destemida, treinada desde a infância para lutar contra as forças do mal que ameaçam sua terra natal. Ela é uma especialista em artes marciais, utilizando sua agilidade e esperteza para derrotar seus inimigos.</p>
+                <a href="#">Go</a>
+            </div>
+        </div>
+
+        <div class="card" style="background-image: url('7.png');">
+            <div class="content">
+                <h2>02</h2>
+                <h3>Isla</h3>
+                <p>Isla é uma jovem maga em busca de conhecimento e poder. Ela tem uma habilidade natural para a magia, mas seu desejo de dominá-la o leva a se aventurar em lugares perigosos e a experimentar magias proibidas.</p>
+                <a href="#">Go</a>
+            </div>
+        </div>
+
+        <div class="card" style="background-image: url('14.png');">
+            <div class="content">
+                <h2>03</h2>
+                <h3>Nora</h3>
+                <p>Nora é uma agente secreta altamente treinada em combate tático. Ela é uma soldado de elite com anos de experiência em missões de alto risco, e seu objetivo é proteger a paz mundial a qualquer custo.</p>
+                <a href="#">Go</a>
+            </div>
+        </div>
+        <div class="card" style="background-image: url('10.png');">
+            <div class="content">
+                <h2>04</h2>
+                <h3>Morganna</h3>
+                <p> Morganna é uma bruxa jovem e poderosa, mas ainda em treinamento. Ela é uma aprendiz dedicada, procurando aprimorar suas habilidades em magia para ajudar a proteger seu mundo da escuridão que se aproxima.</p>
+                <a href="#">Go</a>
+            </div>
+        </div>
+        <div class="card" style="background-image: url('9.png');">
+            <div class="content">
+                <h2>05</h2>
+                <h3>Dorothy</h3>
+                <p>Dorothy é uma arqueira habilidosa, conhecida por sua precisão e agilidade em batalha. Ela é uma elfa experiente em magia da natureza, usando suas habilidades para se camuflar e se mover rapidamente em meio à floresta.</p>
+                <a href="#">Go</a>
+            </div>
+        </div>
+
+        <div class="card" style="background-image: url('12.png');">
+            <div class="content">
+                <h2>06</h2>
+                <h3>Annie</h3>
+                <p>Annie uma atiradora de elite, com habilidades impressionantes em combate armado. Ela é uma mercenária habilidosa, procurando missões lucrativas para financiar sua busca por respostas sobre seu passado misterioso.</p>
+                <a href="#">Go</a>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+    VanillaTilt.init(document.querySelectorAll(".card"), {
+        max: 25,
+        speed: 400,
+        glare: true,
+        "max-glare": 1,
+    });
+    </script>
+</body>
+</html>
